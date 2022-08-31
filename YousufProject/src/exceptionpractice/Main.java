@@ -1,5 +1,7 @@
 package exceptionpractice;
 
+import packagespractice.Yousuf1;
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -8,6 +10,7 @@ public class Main {
    static Main m;
     public static void main(String[] args) throws Exception  {
         userException();
+        Yousuf1  y1 = new Yousuf1();
         //tryCatchExample();
         //method1();
 //        try {

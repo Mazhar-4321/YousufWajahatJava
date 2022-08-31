@@ -1,0 +1,12 @@
+package packagespractice;
+import java.util.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        ArrayList a = new ArrayList();
+        Set s = new LinkedHashSet();
+        Date d = new Date();
+    }
+}
