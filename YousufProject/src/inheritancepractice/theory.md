@@ -20,3 +20,5 @@ Q) Explain use of final in inheritance?
 Ans : If a class is declared final then it cant become parent(impotency).
 Q)Method Overriding?
 Ans: Refer to notes
+
+
