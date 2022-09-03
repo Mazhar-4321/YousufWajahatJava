@@ -15,7 +15,7 @@ isEmpty()
     *Example Program*
 
 
-4. Explain LinkedList
+4. **Explain LinkedList**
  
 Ans :
 1. LinkedList is the implementation class of List Interface.
@@ -23,9 +23,12 @@ Ans :
 1. In LinkedList we can store null values also.
 1. The commonly used methods of LinkedList are add(),size(),remove(),get(),push(),pop(),peek()
   
+Q5A) ** Differene between ArrayList and LinkedList
+Ans : In ArrayList the datastructure used is "Dynamic Array" and in LinkedList the 
+datastructure used is "DoublyLinkedList".Therefore search is faster in ArrayList whereas
+in LinkedList insertion and deletion is faster.
 
-
-Q5.  **Vectors** 
+Q5.  **Vectors vs ArrayList** 
 1. ArrayList is not synchronized but Vector is synchronized
 
  
@@ -36,21 +39,32 @@ Thera are two types of iterators
    * List Iterator
 7) **Difference between Iterator and List Iterator**
 Ans: 
-   1. Iteratoor can be used with all the collection Objects
+   1. Iterator can be used with all the collection Objects
     2. But ListIterator can only be used with ArrayList,LinkedList,Stack and Vector
     1. Iterator moves in forward direction only but ListIterator can move in both the 
     directions.
        
-8))Explain HashSet& LinkedHashSet
+8))**Explain HashSet& LinkedHashSet&TreeSet**
 Ans : HashSet is the implementation class of Set Interface.
-1. In HashSet we cant store duplicate values
+1. In HashSet we can't store duplicate values
 2. In HashSet we can store null values
-3. In HashSet we dont know the order of insertion
+3. In HashSet we dont know the order of insertion,In LinkedHashSet elements are stored
+   in the order we have inserted,In TreeSet elements are stored in sorted order&we cant 
+   store null values in TreeSet
 4. famous methods of HashSet are add(),size(),remove()
+
 9))**Legacy classes**
    Ans : The classes which were introduced before java 1.5 version are called legacy 
    classes.
    Ex:Stack,Vector
+10)) **HashMap,LinkedHashMap,TreeMap**
+Ans : 
+* HashMap :insertion order is random ,keys and values can be null
+* LinkedHashMap : insertion order is preserved ,keys and values can be null 
+* TreeMap : In TreeMap elements are stored in sorted key order and keys cant be null
+but values can be null
+
+
    
        
    
